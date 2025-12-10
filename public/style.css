@@ -1,0 +1,41 @@
+html, body {
+  /* scroll-snap-type: y mandatory; */
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.italiana {
+  font-family: "Italiana", sans-serif;
+}
+
+.source {
+	font-family: "Source Code Pro", monospace;
+}
+
+#front-page {
+  object-position: 0% 40%;
+}
+#programmingSince {
+  background-image: url('./pictures/DSC06384.JPG');
+  background-size: cover;
+}
+#personalStatement {
+  background-image: url('./pictures/_MG_9835.JPG');
+  background-size: cover;
+}
+/* @media only screen and (max-width: 768px) {
+  #front-page {
+    object-position: 10% 80%;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  #front-page {
+    object-position: 10% 25%;
+  }
+} */
