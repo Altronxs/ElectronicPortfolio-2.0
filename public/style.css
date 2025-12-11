@@ -23,11 +23,11 @@ body {
   background-size: cover;
 }
 #projectOverview {
-  background-image: url('../public/pictures/_MG_9680.jpg');
+  background-image: url('../public/pictures/MG_9680.jpg');
   background-size: cover;
 }
 #personalStatement {
-  background-image: url('../public/pictures/_MG_9835.jpg');
+  background-image: url('../public/pictures/MG_9835.jpg');
   background-size: cover;
 }
 /* @media only screen and (max-width: 768px) {
