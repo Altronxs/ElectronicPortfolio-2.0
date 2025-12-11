@@ -20,6 +20,10 @@ body {
   background-image: url('./pictures/DSC06384.JPG');
   background-size: cover;
 }
+#projectOverview {
+  background-image: url('./pictures/_MG_9680.jpg');
+  background-size: cover;
+}
 #personalStatement {
   background-image: url('./pictures/_MG_9835.JPG');
   background-size: cover;
