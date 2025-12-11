@@ -20,7 +20,7 @@ body {
   object-position: 0% 40%;
 }
 #programmingSince {
-  background-image: url('../public/pictures/DSC06384.jpg');
+  background-image: url('https://github.com/Altronxs/ElectronicPortfolio-2.0/blob/main/public/pictures/DSC06384.JPG?raw=true');
   background-size: cover;
 }
 #projectOverview {
