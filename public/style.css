@@ -3,6 +3,8 @@ body {
   overflow-x: hidden;
   color: white;
   scroll-behavior: smooth;
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
 }
 
 .italiana {
