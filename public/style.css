@@ -19,19 +19,19 @@ body {
   object-position: 0% 40%;
 }
 #programmingSince {
-  background-image: url('./pictures/DSC06384.jpg');
+  background-image: url('../public/pictures/DSC06384.jpg');
   background-size: cover;
 }
 #projectOverview {
-  background-image: url('./pictures/_MG_9680.jpg');
+  background-image: url('../public/pictures/_MG_9680.jpg');
   background-size: cover;
 }
 #personalStatement {
-  background-image: url('./pictures/_MG_9835.jpg');
+  background-image: url('../public/pictures/_MG_9835.jpg');
   background-size: cover;
 }
 /* @media only screen and (max-width: 768px) {
-  #front-page {
+  #front-page { DSC06384
     object-position: 10% 80%;
   }
 }
