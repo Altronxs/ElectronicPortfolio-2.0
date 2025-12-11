@@ -19,7 +19,7 @@ body {
   object-position: 0% 40%;
 }
 #programmingSince {
-  background-image: url('./pictures/DSC06384.JPG');
+  background-image: url('./pictures/DSC06384.jpg');
   background-size: cover;
 }
 #projectOverview {
@@ -27,7 +27,7 @@ body {
   background-size: cover;
 }
 #personalStatement {
-  background-image: url('./pictures/_MG_9835.JPG');
+  background-image: url('./pictures/_MG_9835.jpg');
   background-size: cover;
 }
 /* @media only screen and (max-width: 768px) {
