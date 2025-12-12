@@ -273,7 +273,7 @@
 					relative
 					top-[20%]"
 				>
-					<div class="bg-black/35 w-[25vw] p-5 rounded-lg h-min backdrop-blur-3xl border-2 border-white/5">
+					<div class="bg-black/35 w-[25vw] p-5 rounded-2xl h-min backdrop-blur-3xl border-2 border-white/5">
 						<h3 class="italiana font-extrabold text-2xl">HTML</h3>
 						<p>6 Years, <em class="text-red-500">5 Projects</em></p>
 						<div class="flex flex-row w-[24vw] mt-2 flex-wrap">
@@ -290,7 +290,7 @@
 							<div class="w-5 h-5 bg-red-700 m-[2px] rounded-sm"></div>
 						</div>
 					</div>
-					<div class="bg-black/35 w-[25vw] p-5 rounded-lg h-min backdrop-blur-3xl border-2 border-white/5">
+					<div class="bg-black/35 w-[25vw] p-5 rounded-2xl h-min backdrop-blur-3xl border-2 border-white/5">
 						<h3 class="italiana font-extrabold text-2xl">CSS</h3>
 						<p>6 Years, <em class="text-red-500">5 Projects</em></p>
 						<div class="flex flex-row w-[24vw] mt-2 flex-wrap">
@@ -307,7 +307,7 @@
 							<div class="w-5 h-5 bg-red-700 m-[2px] rounded-sm"></div>
 						</div>
 					</div>
-					<div class="bg-black/35 w-[25vw] p-5 rounded-lg h-min backdrop-blur-3xl border-2 border-white/5">
+					<div class="bg-black/35 w-[25vw] p-5 rounded-2xl h-min backdrop-blur-3xl border-2 border-white/5">
 						<h3 class="italiana font-extrabold text-2xl">Javascript</h3>
 						<p>5 Years, <em class="text-red-500">4 Projects</em></p>
 						<div class="flex flex-row flex-wrap w-[24vw] mt-2">
@@ -322,7 +322,7 @@
 							<div class="w-5 h-5 bg-red-700 m-[2px] rounded-sm"></div>
 						</div>
 					</div>
-					<div class="bg-black/35 w-[25vw] p-5 rounded-lg h-min backdrop-blur-3xl border-2 border-white/5">
+					<div class="bg-black/35 w-[25vw] p-5 rounded-2xl h-min backdrop-blur-3xl border-2 border-white/5">
 						<h3 class="italiana font-extrabold text-2xl">React & NodeJS</h3>
 						<p>4 Years, <em class="text-red-500">3 Projects</em></p>
 						<div class="flex flex-row flex-wrap w-[24vw] mt-2">
@@ -336,7 +336,7 @@
 							<div class="w-5 h-5 bg-red-700 m-[2px] rounded-sm"></div>
 						</div>
 					</div>
-					<div class="bg-black/35 w-[25vw] p-5 rounded-lg h-min backdrop-blur-3xl border-2 border-white/5">
+					<div class="bg-black/35 w-[25vw] p-5 rounded-2xl h-min backdrop-blur-3xl border-2 border-white/5">
 						<h3 class="italiana font-extrabold text-2xl">Java & SQLite</h3>
 						<p>2 Years, <em class="text-red-500">1 Project</em></p>
 						<div class="flex flex-row w-[24vw] mt-2 flex-wrap">
@@ -345,7 +345,7 @@
 							<div class="w-5 h-5 bg-red-700 m-[2px] rounded-sm"></div>
 						</div>
 					</div>
-					<div class="bg-black/35 w-[25vw] p-5 rounded-lg h-min backdrop-blur-sm border-2 border-white/5">
+					<div class="bg-black/35 w-[25vw] p-5 rounded-2xl h-min backdrop-blur-sm border-2 border-white/5">
 						<h3 class="italiana font-extrabold text-lg">Python & Tailwind</h3>
 						<p>1 Year, <em class="text-red-500">1 Project</em></p>
 						<div class="flex flex-row w-[25vw] mt-2 flex-wrap">
@@ -420,27 +420,27 @@
 								<li class="ml-5 text-sm"><p><em class="text-red-500 font-semibold">//</em> Integration of open-source text parsing tools with AI for enhanced data extraction</p></li>
 							</ul>
 							<div class="flex flex-row gap-2 ml-5 pt-2 flex-wrap">
-								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-lg flex gap-2 flex-row flex-nowrap">
+								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-2xl flex gap-2 flex-row flex-nowrap">
 									<svg class="size-5" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18.6789 15.9759C18.6789 14.5415 17.4796 13.3785 16 13.3785C14.5206 13.3785 13.3211 14.5415 13.3211 15.9759C13.3211 17.4105 14.5206 18.5734 16 18.5734C17.4796 18.5734 18.6789 17.4105 18.6789 15.9759Z" fill="#53C1DE"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M24.7004 11.1537C25.2661 8.92478 25.9772 4.79148 23.4704 3.39016C20.9753 1.99495 17.7284 4.66843 16.0139 6.27318C14.3044 4.68442 10.9663 2.02237 8.46163 3.42814C5.96751 4.82803 6.73664 8.8928 7.3149 11.1357C4.98831 11.7764 1 13.1564 1 15.9759C1 18.7874 4.98416 20.2888 7.29698 20.9289C6.71658 23.1842 5.98596 27.1909 8.48327 28.5877C10.9973 29.9932 14.325 27.3945 16.0554 25.7722C17.7809 27.3864 20.9966 30.0021 23.4922 28.6014C25.9956 27.1963 25.3436 23.1184 24.7653 20.8625C27.0073 20.221 31 18.7523 31 15.9759C31 13.1835 26.9903 11.7923 24.7004 11.1537ZM24.4162 19.667C24.0365 18.5016 23.524 17.2623 22.8971 15.9821C23.4955 14.7321 23.9881 13.5088 24.3572 12.3509C26.0359 12.8228 29.7185 13.9013 29.7185 15.9759C29.7185 18.07 26.1846 19.1587 24.4162 19.667ZM22.85 27.526C20.988 28.571 18.2221 26.0696 16.9478 24.8809C17.7932 23.9844 18.638 22.9422 19.4625 21.7849C20.9129 21.6602 22.283 21.4562 23.5256 21.1777C23.9326 22.7734 24.7202 26.4763 22.85 27.526ZM9.12362 27.5111C7.26143 26.47 8.11258 22.8946 8.53957 21.2333C9.76834 21.4969 11.1286 21.6865 12.5824 21.8008C13.4123 22.9332 14.2816 23.9741 15.1576 24.8857C14.0753 25.9008 10.9945 28.557 9.12362 27.5111ZM2.28149 15.9759C2.28149 13.874 5.94207 12.8033 7.65904 12.3326C8.03451 13.5165 8.52695 14.7544 9.12123 16.0062C8.51925 17.2766 8.01977 18.5341 7.64085 19.732C6.00369 19.2776 2.28149 18.0791 2.28149 15.9759ZM9.1037 4.50354C10.9735 3.45416 13.8747 6.00983 15.1159 7.16013C14.2444 8.06754 13.3831 9.1006 12.5603 10.2265C11.1494 10.3533 9.79875 10.5569 8.55709 10.8297C8.09125 9.02071 7.23592 5.55179 9.1037 4.50354ZM20.3793 11.5771C21.3365 11.6942 22.2536 11.85 23.1147 12.0406C22.8562 12.844 22.534 13.6841 22.1545 14.5453C21.6044 13.5333 21.0139 12.5416 20.3793 11.5771ZM16.0143 8.0481C16.6054 8.66897 17.1974 9.3623 17.7798 10.1145C16.5985 10.0603 15.4153 10.0601 14.234 10.1137C14.8169 9.36848 15.414 8.67618 16.0143 8.0481ZM9.8565 14.5444C9.48329 13.6862 9.16398 12.8424 8.90322 12.0275C9.75918 11.8418 10.672 11.69 11.623 11.5748C10.9866 12.5372 10.3971 13.5285 9.8565 14.5444ZM11.6503 20.4657C10.6679 20.3594 9.74126 20.2153 8.88556 20.0347C9.15044 19.2055 9.47678 18.3435 9.85796 17.4668C10.406 18.4933 11.0045 19.4942 11.6503 20.4657ZM16.0498 23.9915C15.4424 23.356 14.8365 22.6531 14.2448 21.8971C15.4328 21.9423 16.6231 21.9424 17.811 21.891C17.2268 22.6608 16.6369 23.3647 16.0498 23.9915ZM22.1667 17.4222C22.5677 18.3084 22.9057 19.1657 23.1742 19.9809C22.3043 20.1734 21.3652 20.3284 20.3757 20.4435C21.015 19.4607 21.6149 18.4536 22.1667 17.4222ZM18.7473 20.5941C16.9301 20.72 15.1016 20.7186 13.2838 20.6044C12.2509 19.1415 11.3314 17.603 10.5377 16.0058C11.3276 14.4119 12.2404 12.8764 13.2684 11.4158C15.0875 11.2825 16.9178 11.2821 18.7369 11.4166C19.7561 12.8771 20.6675 14.4086 21.4757 15.9881C20.6771 17.5812 19.7595 19.1198 18.7473 20.5941ZM22.8303 4.4666C24.7006 5.51254 23.8681 9.22726 23.4595 10.8426C22.2149 10.5641 20.8633 10.3569 19.4483 10.2281C18.6239 9.09004 17.7698 8.05518 16.9124 7.15949C18.1695 5.98441 20.9781 3.43089 22.8303 4.4666Z" fill="#53C1DE"></path> </g></svg>
 									<p>React</p>
 								</div>
-								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-lg flex gap-2 flex-row flex-wrap flex-nowrap">
+								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-2xl flex gap-2 flex-row flex-wrap flex-nowrap">
 									<svg class="size-5" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>file_type_vite</title><path d="M29.8836 6.146L16.7418 29.6457c-.2714.4851-.9684.488-1.2439.0052L2.0956 6.1482c-.3-.5262.1498-1.1635.746-1.057l13.156 2.3516a.7144.7144 0 00.2537-.0004l12.8808-2.3478c.5942-.1083 1.0463.5241.7515 1.0513z" fill="url(#paint0_linear)"></path><path d="M22.2644 2.0069l-9.7253 1.9056a.3571.3571 0 00-.2879.3294l-.5982 10.1038c-.014.238.2045.4227.4367.3691l2.7077-.6248c.2534-.0585.4823.1647.4302.4194l-.8044 3.9393c-.0542.265.1947.4918.4536.4132l1.6724-.5082c.2593-.0787.5084.1487.4536.414l-1.2784 6.1877c-.08.387.4348.598.6495.2662L16.5173 25 24.442 9.1848c.1327-.2648-.096-.5667-.387-.5106l-2.787.5379c-.262.0505-.4848-.1934-.4109-.4497l1.8191-6.306c.074-.2568-.1496-.5009-.4118-.4495z" fill="url(#paint1_linear)"></path><defs id="defs50"><linearGradient id="paint0_linear" x1="6.0002" y1="32.9999" x2="235" y2="344" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.07142 0 0 .07142 1.3398 1.8944)"><stop stop-color="#41D1FF" id="stop38"></stop><stop offset="1" stop-color="#BD34FE" id="stop40"></stop></linearGradient><linearGradient id="paint1_linear" x1="194.651" y1="8.8182" x2="236.076" y2="292.989" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.07142 0 0 .07142 1.3398 1.8944)"><stop stop-color="#FFEA83" id="stop43"></stop><stop offset=".0833" stop-color="#FFDD35" id="stop45"></stop><stop offset="1" stop-color="#FFA800" id="stop47"></stop></linearGradient></defs></g></svg>
 									<p>Vite</p>
 								</div>
-								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-lg flex gap-2 flex-row flex-nowrap">
+								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-2xl flex gap-2 flex-row flex-nowrap">
 									<svg class="size-5" xmlns="http://www.w3.org/2000/svg" aria-label="TypeScript" role="img" viewBox="0 0 512 512" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><rect width="512" height="512" rx="15%" fill="#3178c6"></rect><path fill="#ffffff" d="m233 284h64v-41H118v41h64v183h51zm84 173c8.1 4.2 18 7.3 29 9.4s23 3.1 35 3.1c12 0 23-1.1 34-3.4c11-2.3 20-6.1 28-11c8.1-5.3 15-12 19-21s7.1-19 7.1-32c0-9.1-1.4-17-4.1-24s-6.6-13-12-18c-5.1-5.3-11-10-18-14s-15-8.2-24-12c-6.6-2.7-12-5.3-18-7.9c-5.2-2.6-9.7-5.2-13-7.8c-3.7-2.7-6.5-5.5-8.5-8.4c-2-3-3-6.3-3-10c0-3.4.89-6.5 2.7-9.3s4.3-5.1 7.5-7.1c3.2-2 7.2-3.5 12-4.6c4.7-1.1 9.9-1.6 16-1.6c4.2 0 8.6.31 13 .94c4.6.63 9.3 1.6 14 2.9c4.7 1.3 9.3 2.9 14 4.9c4.4 2 8.5 4.3 12 6.9v-47c-7.6-2.9-16-5.1-25-6.5s-19-2.1-31-2.1c-12 0-23 1.3-34 3.8s-20 6.5-28 12c-8.1 5.4-14 12-19 21c-4.7 8.4-7 18-7 30c0 15 4.3 28 13 38c8.6 11 22 19 39 27c6.9 2.8 13 5.6 19 8.3s11 5.5 15 8.4c4.3 2.9 7.7 6.1 10 9.5c2.5 3.4 3.8 7.4 3.8 12c0 3.2-.78 6.2-2.3 9s-3.9 5.2-7.1 7.2s-7.1 3.6-12 4.8c-4.7 1.1-10 1.7-17 1.7c-11 0-22-1.9-32-5.7c-11-3.8-21-9.5-28.1-15.44z"></path></g></svg>
 									<p>Typescript</p>
 								</div>
-								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-lg flex gap-2 flex-row flex-nowrap">
+								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-2xl flex gap-2 flex-row flex-nowrap">
 									<svg class="size-5" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>file_type_tailwind</title><path d="M9,13.7q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q11.1,10.9,9,13.7ZM2,22.1q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q4.1,19.3,2,22.1Z" style="fill:#44a8b3"></path></g></svg>
 									<p>Tailwindcss</p>
 								</div>
-								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-lg flex gap-2 flex-row flex-wrap flex-nowrap">
+								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-2xl flex gap-2 flex-row flex-wrap flex-nowrap">
 									<svg class="size-5" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>file_type_firebase</title><path d="M5.8,24.6l.17-.237L13.99,9.149l.017-.161L10.472,2.348a.656.656,0,0,0-1.227.207Z" style="fill:#ffc24a"></path><path d="M5.9,24.42l.128-.25L13.965,9.114,10.439,2.448a.6.6,0,0,0-1.133.206Z" style="fill:#ffa712"></path><path d="M16.584,14.01l2.632-2.7L16.583,6.289a.678.678,0,0,0-1.195,0L13.981,8.971V9.2Z" style="fill:#f4bd62"></path><path d="M16.537,13.9l2.559-2.62L16.537,6.4a.589.589,0,0,0-1.074-.047L14.049,9.082l-.042.139Z" style="fill:#ffa50e"></path><polygon points="5.802 24.601 5.879 24.523 6.158 24.41 16.418 14.188 16.548 13.834 13.989 8.956 5.802 24.601" style="fill:#f6820c"></polygon><path d="M16.912,29.756,26.2,24.577,23.546,8.246A.635.635,0,0,0,22.471,7.9L5.8,24.6l9.233,5.155a1.927,1.927,0,0,0,1.878,0" style="fill:#fde068"></path><path d="M26.115,24.534,23.483,8.326a.557.557,0,0,0-.967-.353L5.9,24.569l9.131,5.1a1.912,1.912,0,0,0,1.863,0Z" style="fill:#fcca3f"></path><path d="M16.912,29.6a1.927,1.927,0,0,1-1.878,0L5.876,24.522,5.8,24.6l9.233,5.155a1.927,1.927,0,0,0,1.878,0L26.2,24.577l-.023-.14Z" style="fill:#eeab37"></path></g></svg>
 									<p>Firebase</p>
 								</div>
-								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-lg flex gap-2 flex-row flex-wrap flex-nowrap">
+								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-2xl flex gap-2 flex-row flex-wrap flex-nowrap">
 									<img class="size-5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Google_Gemini_icon_2025.svg/250px-Google_Gemini_icon_2025.svg.png">
 									<p>Gemini</p>
 								</div>
@@ -472,15 +472,15 @@
 								<li class="ml-5 text-sm"><p><em class="text-red-500 font-semibold">//</em> Get the latest updates on activities, programs, and important notices.</p></li>
 							</ul>
 							<div class="flex flex-row gap-2 ml-5 pt-2">
-								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-lg flex gap-2 flex-row flex-nowrap">
+								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-2xl flex gap-2 flex-row flex-nowrap">
 									<svg class="size-5" viewBox="0 -12.5 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#ffffff" stroke="#ffffff" transform="rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M121.309004,84.6732585 C123.402504,81.5874152 125.694292,81.1950171 127.553451,81.1950171 C129.41261,81.1950171 132.509843,81.5874152 134.604162,84.6732585 C151.106348,107.339593 178.345607,152.492 198.439108,185.798721 C211.542532,207.519499 221.6069,224.201947 223.671721,226.324944 C231.422996,234.294992 242.053551,229.327949 248.230809,220.287799 C254.312201,211.387762 256.000111,205.138399 256.000111,198.471155 C256.000111,193.930186 167.895315,30.0714244 159.022317,16.4322117 C150.48936,3.31359639 147.710044,0 133.105527,0 L122.176721,0 C107.615631,0 105.511479,3.31359639 96.9777022,16.4322117 C88.1055238,30.0714244 0.0001105152,193.930186 0.0001105152,198.471155 C0.0001105152,205.138399 1.68839227,211.387762 7.76991495,220.287799 C13.9471241,229.327949 24.5775965,234.294992 32.3286259,226.324944 C34.3936934,224.201947 44.4580605,207.519499 57.5616485,185.798721 C77.654822,152.492 104.806818,107.339593 121.309004,84.6732585 Z" fill="#ffffff"> </path> </g> </g></svg>
 									<p>Expo</p>
 								</div>
-								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-lg flex gap-2 flex-row flex-nowrap">
+								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-2xl flex gap-2 flex-row flex-nowrap">
 									<svg class="size-5" xmlns="http://www.w3.org/2000/svg" aria-label="TypeScript" role="img" viewBox="0 0 512 512" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><rect width="512" height="512" rx="15%" fill="#3178c6"></rect><path fill="#ffffff" d="m233 284h64v-41H118v41h64v183h51zm84 173c8.1 4.2 18 7.3 29 9.4s23 3.1 35 3.1c12 0 23-1.1 34-3.4c11-2.3 20-6.1 28-11c8.1-5.3 15-12 19-21s7.1-19 7.1-32c0-9.1-1.4-17-4.1-24s-6.6-13-12-18c-5.1-5.3-11-10-18-14s-15-8.2-24-12c-6.6-2.7-12-5.3-18-7.9c-5.2-2.6-9.7-5.2-13-7.8c-3.7-2.7-6.5-5.5-8.5-8.4c-2-3-3-6.3-3-10c0-3.4.89-6.5 2.7-9.3s4.3-5.1 7.5-7.1c3.2-2 7.2-3.5 12-4.6c4.7-1.1 9.9-1.6 16-1.6c4.2 0 8.6.31 13 .94c4.6.63 9.3 1.6 14 2.9c4.7 1.3 9.3 2.9 14 4.9c4.4 2 8.5 4.3 12 6.9v-47c-7.6-2.9-16-5.1-25-6.5s-19-2.1-31-2.1c-12 0-23 1.3-34 3.8s-20 6.5-28 12c-8.1 5.4-14 12-19 21c-4.7 8.4-7 18-7 30c0 15 4.3 28 13 38c8.6 11 22 19 39 27c6.9 2.8 13 5.6 19 8.3s11 5.5 15 8.4c4.3 2.9 7.7 6.1 10 9.5c2.5 3.4 3.8 7.4 3.8 12c0 3.2-.78 6.2-2.3 9s-3.9 5.2-7.1 7.2s-7.1 3.6-12 4.8c-4.7 1.1-10 1.7-17 1.7c-11 0-22-1.9-32-5.7c-11-3.8-21-9.5-28.1-15.44z"></path></g></svg>
 									<p>Typescript</p>
 								</div>
-								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-lg flex gap-2 flex-row flex-nowrap">
+								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-2xl flex gap-2 flex-row flex-nowrap">
 									<svg class="size-5" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>file_type_tailwind</title><path d="M9,13.7q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q11.1,10.9,9,13.7ZM2,22.1q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q4.1,19.3,2,22.1Z" style="fill:#44a8b3"></path></g></svg>
 									<p>Tailwindcss</p>
 								</div>
@@ -512,15 +512,15 @@
 								<li class="ml-5 text-sm"><p><em class="text-red-500 font-semibold">//</em> Get the latest updates on activities, programs, and important notices.</p></li>
 							</ul>
 							<div class="flex flex-row gap-2 ml-5 pt-2">
-								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-lg flex gap-2 flex-row flex-nowrap">
+								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-2xl flex gap-2 flex-row flex-nowrap">
 									<svg class="size-5" viewBox="0 -12.5 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#ffffff" stroke="#ffffff" transform="rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M121.309004,84.6732585 C123.402504,81.5874152 125.694292,81.1950171 127.553451,81.1950171 C129.41261,81.1950171 132.509843,81.5874152 134.604162,84.6732585 C151.106348,107.339593 178.345607,152.492 198.439108,185.798721 C211.542532,207.519499 221.6069,224.201947 223.671721,226.324944 C231.422996,234.294992 242.053551,229.327949 248.230809,220.287799 C254.312201,211.387762 256.000111,205.138399 256.000111,198.471155 C256.000111,193.930186 167.895315,30.0714244 159.022317,16.4322117 C150.48936,3.31359639 147.710044,0 133.105527,0 L122.176721,0 C107.615631,0 105.511479,3.31359639 96.9777022,16.4322117 C88.1055238,30.0714244 0.0001105152,193.930186 0.0001105152,198.471155 C0.0001105152,205.138399 1.68839227,211.387762 7.76991495,220.287799 C13.9471241,229.327949 24.5775965,234.294992 32.3286259,226.324944 C34.3936934,224.201947 44.4580605,207.519499 57.5616485,185.798721 C77.654822,152.492 104.806818,107.339593 121.309004,84.6732585 Z" fill="#ffffff"> </path> </g> </g></svg>
 									<p>Expo</p>
 								</div>
-								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-lg flex gap-2 flex-row flex-nowrap">
+								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-2xl flex gap-2 flex-row flex-nowrap">
 									<svg class="size-5" xmlns="http://www.w3.org/2000/svg" aria-label="TypeScript" role="img" viewBox="0 0 512 512" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><rect width="512" height="512" rx="15%" fill="#3178c6"></rect><path fill="#ffffff" d="m233 284h64v-41H118v41h64v183h51zm84 173c8.1 4.2 18 7.3 29 9.4s23 3.1 35 3.1c12 0 23-1.1 34-3.4c11-2.3 20-6.1 28-11c8.1-5.3 15-12 19-21s7.1-19 7.1-32c0-9.1-1.4-17-4.1-24s-6.6-13-12-18c-5.1-5.3-11-10-18-14s-15-8.2-24-12c-6.6-2.7-12-5.3-18-7.9c-5.2-2.6-9.7-5.2-13-7.8c-3.7-2.7-6.5-5.5-8.5-8.4c-2-3-3-6.3-3-10c0-3.4.89-6.5 2.7-9.3s4.3-5.1 7.5-7.1c3.2-2 7.2-3.5 12-4.6c4.7-1.1 9.9-1.6 16-1.6c4.2 0 8.6.31 13 .94c4.6.63 9.3 1.6 14 2.9c4.7 1.3 9.3 2.9 14 4.9c4.4 2 8.5 4.3 12 6.9v-47c-7.6-2.9-16-5.1-25-6.5s-19-2.1-31-2.1c-12 0-23 1.3-34 3.8s-20 6.5-28 12c-8.1 5.4-14 12-19 21c-4.7 8.4-7 18-7 30c0 15 4.3 28 13 38c8.6 11 22 19 39 27c6.9 2.8 13 5.6 19 8.3s11 5.5 15 8.4c4.3 2.9 7.7 6.1 10 9.5c2.5 3.4 3.8 7.4 3.8 12c0 3.2-.78 6.2-2.3 9s-3.9 5.2-7.1 7.2s-7.1 3.6-12 4.8c-4.7 1.1-10 1.7-17 1.7c-11 0-22-1.9-32-5.7c-11-3.8-21-9.5-28.1-15.44z"></path></g></svg>
 									<p>Typescript</p>
 								</div>
-								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-lg flex gap-2 flex-row flex-nowrap">
+								<div class="bg-white/5 pl-3 pr-3 pt-1 pb-1 h-min border-2 border-white/5 rounded-2xl flex gap-2 flex-row flex-nowrap">
 									<svg class="size-5" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>file_type_tailwind</title><path d="M9,13.7q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q11.1,10.9,9,13.7ZM2,22.1q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q4.1,19.3,2,22.1Z" style="fill:#44a8b3"></path></g></svg>
 									<p>Tailwindcss</p>
 								</div>
