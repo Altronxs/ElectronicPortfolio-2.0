@@ -31,6 +31,10 @@ body {
   background-image: url('../public/pictures/MG_9835.jpg');
   background-size: cover;
 }
+#navbar {
+  mask: linear-gradient(black,black, transparent);
+  backdrop-filter: blur(10px);
+}
 /* @media only screen and (max-width: 768px) {
   #front-page { DSC06384
     object-position: 10% 80%;
