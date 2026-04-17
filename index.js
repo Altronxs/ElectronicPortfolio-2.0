@@ -8,7 +8,7 @@ window.onload = function () {
     function updateRole() {
         roles.innerText = "";
         count = 0;
-        random = 6;//Math.floor(Math.random() * myroles.length);
+        random = Math.floor(Math.random() * myroles.length);
         typeEffect();
     }
 
