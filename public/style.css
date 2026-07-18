@@ -34,6 +34,11 @@ body {
   mask: linear-gradient(black,black, transparent);
   backdrop-filter: blur(10px);
 }
+#immortalLions {
+  background-image: url('../public/pictures/il-1.JPEG');
+  opacity: 1;
+  background-size: cover;
+}
 /* @media only screen and (max-width: 768px) {
   #front-page { DSC06384
     object-position: 10% 80%;
