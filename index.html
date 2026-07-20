@@ -23,20 +23,26 @@
 </head>
 	<body>
 		<!--I am front page-->
-		<div class="w-screen h-[20vh] overflow-hidden flex flex-row flex-nowrap sticky justify-evenly top-0 z-50" id="navbar">
+		<div class="w-screen h-[20vh] overflow-hidden flex flex-row flex-nowrap sticky justify-between top-0 z-50" id="navbar">
+			<div class="p-[3px] ml-5 mt-2 flex flex-row flex-nowrap h-min">
+				<a href="./index.html" class="no-underline text-white/85 hover:text-white"><h1 class="italiana font-bold text-2xl/none">KYLE<br>BALDOVI</h1></a>
+			</div>
 			
-			<div class="bg-white/15 border-2 border-white/5 w-min h-min rounded-full p-[3px] backdrop-blur-3xl mt-5 flex flex-row flex-nowrap">
+			<div class="bg-white/15 border-2 border-white/5 w-min h-min rounded-full p-[3px] backdrop-blur-3xl mt-6 flex flex-row flex-nowrap relative left-7">
 				<a href="./index.html" class="no-underline text-white/85 hover:text-white"><p class="bg-white/15 border-2 border-white/5 w-min h-min rounded-3xl self-center p-3 pt-1 pb-1 font-semibold text-sm">Home</p></a>
 				<a href="./projects.html" class="no-underline text-white/85 hover:text-white"><p class="w-min h-min rounded-3xl self-center p-3 pt-1 pb-1 font-semibold text-sm">WBL</p></a>
 				<a href="./extra.html" class="no-underline text-white/85 hover:text-white"><p class="w-min h-min rounded-3xl self-center p-3 pt-1 pb-1 font-semibold text-sm">Extracuriculars</p></a>
-			
+		
 			</div>
-			
+			<div class="p-[3px] ml-5 mt-2 flex flex-row flex-nowrap h-min mr-6">
+				<a href="./index.html" class="no-underline text-white/85 hover:text-white"><img src="./public/pictures/alt-logo-600.png" class="h-14 p-2"></a>
+			</div>
 		</div>
-		<div class=" h-screen w-screen bg-black relative bottom-[20vh]">
-			<img 
+		<div class=" h-screen w-screen bg-black sticky top-0 bottom-[20vh]">
+			<!-- <img 
 				src="./public/pictures/IMG_9702.jpg"
 				class="
+				
 				absolute
 				bg-gray-900
 				object-cover
@@ -47,21 +53,23 @@
 				"
 				id="front-page"
 				loading="eager"
-			>
+			> -->
+			<video src="./public/videos/Seattle2.mp4" class="absolute bg-gray-900 object-cover w-[100vw] h-[100vh] z-0" id="front-page" autoplay loop muted playsinline></video>
+
 			<div 
 				class="
-				
 				h-[100vh] 
 				w-[100vw]
 				z-0
-				relative
+				"
+				
+			>
+				<!-- relative
 				grid
 				grid-cols-2 
 				grid-rows-3
 				grid-flow-col
-				gap-10
-				"
-			>
+				gap-10 -->
 				<!-- <h1 
 					class="
 					italiana
@@ -134,7 +142,7 @@
 			inset-0
 			relative
 			
-			pt-0 pb-20"
+			pt-20 pb-20"
 
 		>
 			<div class="mt-[7vh]">
@@ -572,7 +580,9 @@
 			pt-10
 			pb-10
 			bg-black
-			group"
+			group
+			relative
+			z-10"
 		>
 			<div class="w-min block m-auto">
 				<h1 class="
