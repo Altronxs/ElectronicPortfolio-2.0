@@ -1,0 +1,54 @@
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: white;
+  scroll-behavior: smooth;
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+.italiana {
+  font-family: "Italiana", sans-serif;
+}
+
+.source {
+	font-family: "Source Code Pro", monospace;
+}
+
+#front-page {
+  object-position: 0% 40%;
+}
+#programmingSince {
+  background-image: url('https://raw.githubusercontent.com/Altronxs/ElectronicPortfolio-2.0/refs/heads/main/public/pictures/DSC06384.JPG');
+  background-size: cover;
+}
+#projectOverview {
+  background-image: url('../public/pictures/MG_9680.jpg');
+  background-size: cover;
+}
+#personalStatement {
+  background-image: url('../public/pictures/MG_9835.jpg');
+  background-size: cover;
+}
+#navbar {
+  backdrop-filter: blur(50px);
+  -webkit-mask: linear-gradient(to bottom, rgb(255, 255, 255), transparent);
+  mask: linear-gradient(to bottom, rgb(255, 255, 255), transparent);
+}
+#immortalLions {
+  background-image: url('../public/pictures/il-1.JPEG');
+  opacity: 1;
+  background-size: cover;
+}
+/* @media only screen and (max-width: 768px) {
+  #front-page { DSC06384
+    object-position: 10% 80%;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  #front-page {
+    object-position: 10% 25%;
+  }
+} */
