@@ -30,10 +30,10 @@ body {
   background-image: url('../public/pictures/MG_9835.jpg');
   background-size: cover;
 }
-#navbar {
+#navbar, #navbar-two {
   backdrop-filter: blur(50px);
-  -webkit-mask: linear-gradient(to bottom, rgb(255, 255, 255), transparent);
-  mask: linear-gradient(to bottom, rgb(255, 255, 255), transparent);
+  -webkit-mask: linear-gradient(to bottom, black, transparent);
+  mask: linear-gradient(to bottom, black, transparent);
 }
 #immortalLions {
   background-image: url('../public/pictures/il-1.JPEG');
