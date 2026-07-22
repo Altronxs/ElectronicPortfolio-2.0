@@ -66,23 +66,7 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 9999;
-    transition: opacity 0.5s ease, visibility 0.5s ease;
-}
-
-/* 2. Animated Spinner */
-.spinner {
-    width: 50px;
-    height: 50px;
-    border: 6px solid #3d3d5c;
-    border-top: 6px solid #6c5ce7;
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-}
-
-/* Spinner Rotation Animation */
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    transition: opacity 4s ease, visibility 3s ease;
 }
 
 /* 3. Class to hide the loader with a smooth fade */

@@ -25,10 +25,10 @@
 		<!-- Loading Screen Layer -->
 		<div class="loader-wrapper" id="loading-screen">
 			<!-- <div class="spinner"></div> -->
-			<img src="./public/pictures/alt-signature-transparent-loop-forever.gif" class="h-[60%] w-min invert">
+			<img src="./public/pictures/alt-signature-transparent-loop-forever.gif" class="h-[60%] w-min invert transition-all duration-[3s]" id="spinner">
 		</div>
 		<!--I am front page-->
-		<div class="w-screen h-[20vh] overflow-hidden flex flex-row flex-nowrap sticky justify-between top-0 z-50" id="navbar-two">
+		<div class="w-screen h-[20vh] overflow-hidden flex flex-row flex-nowrap sticky justify-between top-0 z-50 invisible" id="navbar-two">
 			<div class="p-[3px] ml-5 mt-2 flex flex-row flex-nowrap h-min">
 				<a href="./index.html" class="no-underline text-white/85 hover:text-white"><h1 class="italiana font-bold text-2xl/none">KYLE<br>BALDOVI</h1></a>
 			</div>
@@ -39,15 +39,15 @@
 				<a href="./extra.html" class="no-underline text-white/85 hover:text-white"><p class="w-min h-min rounded-3xl self-center p-3 pt-1 pb-1 font-semibold text-sm">Extracuriculars</p></a>
 		
 			</div>
-			<div class="p-[3px] ml-5 mt-2 flex flex-row flex-nowrap h-min mr-6">
-				<a href="./index.html" class="no-underline text-white/85 hover:text-white"><img src="./public/pictures/alt-logo-600.png" class="h-14 p-2"></a>
+			<div class="p-[3px] ml-5 flex flex-row flex-nowrap h-min mr-6">
+				<a href="./index.html" class="no-underline text-white/85 hover:text-white"><img src="./public/pictures/alt-logo-600.png" class="h-24 p-1"></a>
 			</div>
 		</div>
 
 
 		<div class=" h-screen w-screen bg-black sticky top-0 bottom-[20vh]">
 			
-			<video src="./public/videos/Seattle2.mp4" class="absolute bg-gray-900 object-cover w-[100vw] h-[100vh] z-0 top-0" id="front-page" autoplay loop muted playsinline></video>
+			<video src="./public/videos/Seattle2.mp4" class="brightness-90 absolute bg-gray-900 object-cover w-[100vw] h-[100vh] z-0 top-0" id="front-page" autoplay loop muted playsinline></video>
 			<div class="w-screen h-[20vh] overflow-hidden flex flex-row flex-nowrap sticky justify-between top-0 z-0" id="navbar">
 				<div class="p-[3px] ml-5 mt-2 flex flex-row flex-nowrap h-min ">
 					<a href="./index.html" class="no-underline text-white/85 hover:text-white backdrop-invert"><h1 class="italiana font-bold text-2xl/none ">KYLE<br>BALDOVI</h1></a>
@@ -59,8 +59,8 @@
 					<a href="./extra.html" class="no-underline text-white/85 hover:text-white"><p class="w-min h-min rounded-3xl self-center p-3 pt-1 pb-1 font-semibold text-sm">Extracuriculars</p></a>
 			
 				</div>
-				<div class="p-[3px] ml-5 mt-2 flex flex-row flex-nowrap h-min mr-6">
-					<a href="./index.html" class="no-underline text-white/85 hover:text-white"><img src="./public/pictures/alt-logo-600.png" class="h-14 p-2"></a>
+				<div class="p-[3px] ml-5 flex flex-row flex-nowrap h-min mr-6">
+					<a href="./index.html" class="no-underline text-white/85 hover:text-white"><img src="./public/pictures/alt-logo-600.png" class="h-24 p-1"></a>
 				</div>
 			</div>
 			<div 
@@ -651,12 +651,7 @@
 			
 		</div>
 		<!-- JavaScript to Handle Dismissal -->
-		<script>
-			// Listen for the complete page to finish loading all assets
-			window.addEventListener('load', function() {
-				const loader = document.getElementById('loading-screen');
-				loader.classList.add('loader-hidden');
-			});
+		<script src="./loadingScreen.js">
 		</script>
 
 	</body>
