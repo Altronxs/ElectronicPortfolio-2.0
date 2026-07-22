@@ -74,40 +74,28 @@ document.addEventListener('DOMContentLoaded', () => {
     //         element.style.opacity = "1";
     //     });
     // })
-    // document.getElementById('ext').addEventListener('mouseleave', () => {
-    //     document.getElementById('extra').style.height = '0vh';
-    //     document.getElementById('extra').style.visibility = 'hidden';
-    //     document.getElementById('ext').style.backgroundColor = '#F5F3F4';
-    //     document.getElementById('ext').style.color = '#161A1D';
-    //     document.querySelectorAll(".extt").forEach(element => {
-    //         element.style.bottom = "9vh"; // Change to "0px" if needed
-    //         element.style.opacity = "0";
-    //     });
-    // });
-    // document.getElementById('extra').addEventListener('mouseleave', () => {
-    //     document.getElementById('extra').style.height = '0vh';
-    //     document.getElementById('extra').style.visibility = 'hidden';
-    //     document.getElementById('ext').style.backgroundColor = '#F5F3F4';
-    //     document.getElementById('ext').style.color = '#161A1D';
-    //     document.querySelectorAll(".extt").forEach(element => {
-    //         element.style.bottom = "9vh"; // Change to "0px" if needed
-    //         element.style.opacity = "0";
-    //     });
-    // })
+    document.getElementById('alt').addEventListener('mouseenter', () => {
+        document.getElementById('alt').setAttribute("src","./public/pictures/alt-signature-transparent-loop-once.gif")
+        document.getElementById('alt').classList.add('invert')
+    });
+    document.getElementById('alt').addEventListener('mouseleave', () => {
+        document.getElementById('alt').setAttribute("src","./public/pictures/alt-logo-600.png")
+        document.getElementById('alt').classList.remove('invert')
+    })
     window.addEventListener("scroll", () => {
         var navbar = document.getElementById('navbar');
         var navbarTwo = document.getElementById('navbar-two');
         if (window.location.pathname.endsWith('index.html')) {
             
             const triggerPosition = window.innerHeight - (window.innerHeight * 0.08);
-            console.log(window.scrollY, triggerPosition)
-            if (window.scrollY > triggerPosition) {
-                navbarTwo.classList.add("visible");
-                navbarTwo.classList.remove("invisible");
-            } else {
-                navbarTwo.classList.add("invisible");
-                navbarTwo.classList.remove("visible");
-            }
+            // console.log(window.scrollY, triggerPosition)
+            // if (window.scrollY > triggerPosition) {
+            //     navbarTwo.classList.add("visible");
+            //     navbarTwo.classList.remove("invisible");
+            // } else {
+            //     navbarTwo.classList.add("invisible");
+            //     navbarTwo.classList.remove("visible");
+            // }
         }
     });
     

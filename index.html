@@ -9,7 +9,12 @@
 	<link rel="stylesheet" type="text/css" href="./public/style.css">
 	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 	<!--Favicon-->
-	<!-- <link rel="icon" type="image/x-icon" href="./public/pictures/favicon.ico"> -->
+	<link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+	<link rel="shortcut icon" href="./favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+	<meta name="apple-mobile-web-app-title" content="Altron" />
+	<link rel="manifest" href="./site.webmanifest" />
 
 	<!--Outfit Font-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +34,7 @@
 		</div>
 		
 		<!--Main navbar-->
-		<div class="w-screen h-[20vh] overflow-hidden flex flex-row flex-nowrap sticky justify-between top-0 z-50" id="navbar-two">
+		<div class="w-screen h-[20vh] overflow-hidden flex flex-row flex-nowrap sticky justify-between top-0 z-50" id="navbar">
 			<div class="p-[3px] ml-5 mt-2 flex flex-row flex-nowrap h-min">
 				<a href="./index.html" class="no-underline text-white/85 hover:text-white"><h1 class="italiana font-bold text-2xl/none">KYLE<br>BALDOVI</h1></a>
 			</div>
@@ -41,7 +46,7 @@
 		
 			</div>
 			<div class="p-[3px] ml-5 flex flex-row flex-nowrap h-min mr-6">
-				<a href="./index.html" class="no-underline text-white/85 hover:text-white"><img src="./public/pictures/alt-logo-600.png" class="h-28 hover:brightness-90"></a>
+				<a href="./index.html" class="no-underline text-white/85 hover:text-white"><img src="./public/pictures/alt-logo-600.png" class="h-28 hover:brightness-90" id="alt"></a>
 			</div>
 		</div>
 
@@ -49,25 +54,8 @@
 		<div class=" h-screen w-screen bg-black sticky top-0 bottom-[20vh]">
 			
 			<video src="./public/videos/Seattle2.mp4" class="brightness-90 absolute bg-gray-900 object-cover w-[100vw] h-[100vh] z-0 top-0" id="front-page" autoplay loop muted playsinline></video>
-			<div class="w-screen h-[20vh] overflow-hidden flex flex-row flex-nowrap sticky justify-between top-0 z-0" id="navbar">
-				<div class="p-[3px] ml-5 mt-2 flex flex-row flex-nowrap h-min ">
-					<a href="./index.html" class="no-underline text-white/90 hover:text-white "><h1 class="italiana font-bold text-2xl/none">KYLE<br>BALDOVI</h1></a>
-				</div>
-				
-				<div class="bg-white/15 border-2 border-white/5 w-min h-min rounded-full p-[3px] backdrop-blur-3xl mt-6 flex flex-row flex-nowrap relative left-7">
-					<a href="./index.html" class="no-underline text-white/90 hover:text-white"><p class="bg-white/15 border-2 border-white/5 w-min h-min rounded-3xl self-center p-3 pt-1 pb-1 font-semibold text-sm">Home</p></a>
-					<a href="./projects.html" class="no-underline text-white/90 hover:text-white"><p class="w-min h-min rounded-3xl self-center p-3 pt-1 pb-1 font-semibold text-sm">WBL</p></a>
-					<a href="./extra.html" class="no-underline text-white/90 hover:text-white"><p class="w-min h-min rounded-3xl self-center p-3 pt-1 pb-1 font-semibold text-sm">Extracuriculars</p></a>
-			
-				</div>
-				<div class="p-[3px] ml-5 flex flex-row flex-nowrap h-min mr-6">
-					<a href="./index.html" class="no-underline text-white/85 hover:text-white"><img src="./public/pictures/alt-logo-600.png" class="h-28 hover:brightness-90"></a>
-				</div>
-			</div>
-			
-			
-			<h1 class="absolute bottom-[-10vw] m-5 z-10 text-white/90 italiana font-bold text-[10vw]/[0.8] tracking-tight h-min w-min text-nowrap transition-all duration-[4s]" id="heroOne">Kyle <strong class="text-[3vw]/[0.8] tracking-normal"><em class="text-red-500 font-semibold tracking-tighter">//</em> <em id="roles">Full Stack Developer</em></strong> </h1>
-			<h1 class="absolute bottom-[-10vw] m-5 z-10 text-white/90 italiana font-bold text-[10vw]/[0.8] tracking-tight h-min w-screen text-nowrap transition-all duration-[4s]" id="heroTwo">Alexander Baldovi</h1>
+			<h1 class="absolute bottom-[-10vw] m-5 z-10 text-white/90 italiana font-bold text-[10vw]/[0.8] tracking-tight h-min w-min text-nowrap transition-all duration-[3s]" id="heroOne">Kyle <strong class="text-[3vw]/[0.8] tracking-normal"><em class="text-red-500 font-semibold tracking-tighter">//</em> <em id="roles">Full Stack Developer</em></strong> </h1>
+			<h1 class="absolute bottom-[-10vw] m-5 z-10 text-white/90 italiana font-bold text-[10vw]/[0.8] tracking-tight h-min w-screen text-nowrap transition-all duration-[3s]" id="heroTwo">Alexander Baldovi</h1>
 				<!-- <h1 class="z-10 text-white/90 italiana font-bold text-[10vw] tracking-wide h-[20vh] w-screen">Baldovi</h1> -->
 			
 		</div>

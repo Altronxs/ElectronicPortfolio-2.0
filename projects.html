@@ -1,36 +1,53 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Kyle Alexander Baldovi</title>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Kyle Alexander Baldovi</title>
 
-	<!--CSS LINK-->
-	<link rel="stylesheet" type="text/css" href="./public/style.css">
-	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-	<!--Favicon-->
-	<!-- <link rel="icon" type="image/x-icon" href="./public/pictures/favicon.ico"> -->
+		<!--CSS LINK-->
+		<link rel="stylesheet" type="text/css" href="./public/style.css">
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<!--Favicon-->
+		<link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+		<link rel="shortcut icon" href="./favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="Altron" />
+		<link rel="manifest" href="./site.webmanifest" />
 
-	<!--Outfit Font-->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+		<!--Outfit Font-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
 
-	<script src="./index.js"></script>
-	<script src="./navbar.js"></script>
-</head>
+		<script src="./index.js"></script>
+		<script src="./navbar.js"></script>
+	</head>
 	<body>
+		<!-- Loading Screen Layer -->
+		<div class="loader-wrapper" id="loading-screen">
+			<!-- <div class="spinner"></div> -->
+			<img src="./public/pictures/alt-signature-transparent-loop-forever.gif" class="h-[60%] w-min invert transition-all duration-[3s]" id="spinner">
+		</div>
+
 		<!--I am front page-->
-		<div class="w-screen h-[20vh] overflow-hidden flex flex-row flex-nowrap sticky justify-evenly top-0 z-50" id="navbar">
+		<div class="w-screen h-[20vh] overflow-hidden flex flex-row flex-nowrap sticky justify-between top-0 z-50" id="navbar">
+			<div class="p-[3px] ml-5 mt-2 flex flex-row flex-nowrap h-min">
+				<a href="./index.html" class="no-underline text-white/85 hover:text-white"><h1 class="italiana font-bold text-2xl/none">KYLE<br>BALDOVI</h1></a>
+			</div>
 			
-			<div class="bg-white/15 border-2 border-white/5 w-min h-min rounded-full p-[3px] backdrop-blur-3xl mt-5 flex flex-row flex-nowrap">
+			<div class="bg-white/15 border-2 border-white/5 w-min h-min rounded-full p-[3px] backdrop-blur-3xl mt-6 flex flex-row flex-nowrap relative left-7">
 				<a href="./index.html" class="no-underline text-white/85 hover:text-white"><p class="w-min h-min rounded-3xl self-center p-3 pt-1 pb-1 font-semibold text-sm">Home</p></a>
 				<a href="./projects.html" class="no-underline text-white/85 hover:text-white"><p class="bg-white/15 border-2 border-white/5 w-min h-min rounded-3xl self-center p-3 pt-1 pb-1 font-semibold text-sm">WBL</p></a>
 				<a href="./extra.html" class="no-underline text-white/85 hover:text-white"><p class="w-min h-min rounded-3xl self-center p-3 pt-1 pb-1 font-semibold text-sm">Extracuriculars</p></a>
+		
 			</div>
-			
+			<div class="p-[3px] ml-5 flex flex-row flex-nowrap h-min mr-6">
+				<a href="./index.html" class="no-underline text-white/85 hover:text-white"><img src="./public/pictures/alt-logo-600.png" class="h-28 hover:brightness-90" id="alt"></a>
+			</div>
 		</div>
 		<div class="
 			w-[100vw] 
@@ -815,7 +832,9 @@
 			</div>
 			
 		</div>
-		
+		<!-- JavaScript to Handle Dismissal -->
+		<script src="./loadingScreen.js">
+		</script>
 
 	</body>
 </html>
