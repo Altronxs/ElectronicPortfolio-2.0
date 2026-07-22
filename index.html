@@ -22,6 +22,11 @@
 	<script src="./navbar.js"></script>
 </head>
 	<body>
+		<!-- Loading Screen Layer -->
+		<div class="loader-wrapper" id="loading-screen">
+			<!-- <div class="spinner"></div> -->
+			<img src="./public/pictures/alt-signature-transparent-loop-forever.gif" class="h-[60%] w-min invert">
+		</div>
 		<!--I am front page-->
 		<div class="w-screen h-[20vh] overflow-hidden flex flex-row flex-nowrap sticky justify-between top-0 z-50" id="navbar-two">
 			<div class="p-[3px] ml-5 mt-2 flex flex-row flex-nowrap h-min">
@@ -45,7 +50,7 @@
 			<video src="./public/videos/Seattle2.mp4" class="absolute bg-gray-900 object-cover w-[100vw] h-[100vh] z-0 top-0" id="front-page" autoplay loop muted playsinline></video>
 			<div class="w-screen h-[20vh] overflow-hidden flex flex-row flex-nowrap sticky justify-between top-0 z-0" id="navbar">
 				<div class="p-[3px] ml-5 mt-2 flex flex-row flex-nowrap h-min ">
-					<a href="./index.html" class="no-underline text-white/85 hover:text-white"><h1 class="italiana font-bold text-2xl/none ">KYLE<br>BALDOVI</h1></a>
+					<a href="./index.html" class="no-underline text-white/85 hover:text-white backdrop-invert"><h1 class="italiana font-bold text-2xl/none ">KYLE<br>BALDOVI</h1></a>
 				</div>
 				
 				<div class="bg-white/15 border-2 border-white/5 w-min h-min rounded-full p-[3px] backdrop-blur-3xl mt-6 flex flex-row flex-nowrap relative left-7">
@@ -645,7 +650,14 @@
 			</div>
 			
 		</div>
-		
+		<!-- JavaScript to Handle Dismissal -->
+		<script>
+			// Listen for the complete page to finish loading all assets
+			window.addEventListener('load', function() {
+				const loader = document.getElementById('loading-screen');
+				loader.classList.add('loader-hidden');
+			});
+		</script>
 
 	</body>
 </html>
