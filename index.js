@@ -19,7 +19,7 @@ window.onload = function () {
             setTimeout(typeEffect, 100);
         }
         if (random == 6) {
-            roles.style.color = "#c5b4e3"
+            roles.style.color = "#4b2e83"
         } else {
             roles.style.color = "#ffffff"
         }
